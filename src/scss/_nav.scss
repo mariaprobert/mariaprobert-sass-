@@ -5,5 +5,15 @@
   padding-left: 15px;
   padding-right: 15px;
   text-align: center;
-  color: $secondary-color;
+  a:link {
+    text-decoration: $primary-color;
+  }
+
+  a:visited{
+    text-decoration: $primary-color;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
 }
